@@ -49,14 +49,18 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void main_cpp(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CAN_LED_Pin GPIO_PIN_14
+#define CAN_LED_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 
