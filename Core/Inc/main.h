@@ -61,6 +61,8 @@ void main_cpp(void);
 /* Private defines -----------------------------------------------------------*/
 #define CAN_LED_Pin GPIO_PIN_14
 #define CAN_LED_GPIO_Port GPIOC
+#define SPI_CS_Pin GPIO_PIN_0
+#define SPI_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
